@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gugi&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Stick+No+Bills:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Mono", monospace;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #274590;
+  color: #274590;
+  padding: 0;
+}
+
+header {
+  background-color: #086cca;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.navegation {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin: 0 10px;
+}
+
+.btn-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.btn-link img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #007bff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.generate-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+a:hover {
+  background-color: #274590;
+}
